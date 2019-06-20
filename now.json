@@ -3,12 +3,14 @@
   "name": "express-firebase-rest-api-demo",
   "builds": [
     {
-      "src":"www/**/*",
-      "use":"@now/static"
-    },
-    {
-      "src":"api/**/*.js",
+      "src":"src/**/*.js",
       "use":"@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src":"/",
+      "dest":"src/server.js"
     }
   ]
 }
