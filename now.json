@@ -13,8 +13,5 @@
     },
     "src": "/.*",
     "dest": "./src/server.js"
-  }],
-  "env": {
-    "VERSION": "@version"
-  }
+  }]
 }
